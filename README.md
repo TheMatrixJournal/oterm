@@ -1,51 +1,63 @@
-# oterm
+# 🧬 oterm
 
-the text-based terminal client for [Ollama](https://github.com/ollama/ollama).
+🧾 A text-based terminal client for 🧠 [Ollama](https://github.com/ollama/ollama)
 
-## Features
+## 📦 VARIABLES
+📦 client 🟰 "📟 oterm"
+📦 language 🟰 "🧠 Model Context Protocol"
+📦 storage 🟰 "🗃️ SQLite"
+📦 install_command 🟰 `uvx oterm`
+📦 license 🟰 "🪪 MIT License"
 
-* intuitive and simple terminal UI, no need to run servers, frontends, just type `oterm` in your terminal.
-* multiple persistent chat sessions, stored together with system prompt & parameter customizations in sqlite.
-* support for Model Context Protocol (MCP) tools & prompts integration.
-* can use any of the models you have pulled in Ollama, or your own custom models.
-* allows for easy customization of the model's system prompt and parameters.
-* supports tools integration for providing external information to the model.
+## 🧬 FEATURES
 
-## Quick install
+🛠️ Capabilities:
+  ✅ 🖥️ Intuitive terminal UI – no frontend, no servers, just `oterm`
+  ✅ 💬 Multiple persistent chat sessions w/ system prompt & param storage
+  ✅ 🧠 MCP tools & prompt integration supported
+  ✅ 🧠 Uses any models from Ollama or your own custom ones
+  ✅ ⚙️ Customize system prompts and model parameters easily
+  ✅ 🧩 External tool integration for dynamic responses
 
-```bash
-uvx oterm
-```
-See [Installation](https://ggozad.github.io/oterm/installation) for more details.
+## 🔁 INSTALLATION
 
-## Documentation
+🔁 to_install:
+  🖱️ run `uvx oterm`
+  📤 visit [Installation Guide](https://ggozad.github.io/oterm/installation)
+🔚
 
-[oterm Documentation](https://ggozad.github.io/oterm/)
+## 🧬 DOCUMENTATION
 
-## What's new
-* Support for Model Context Protocol (MCP) prompts!
-* Create custom commands that can be run from the terminal using oterm. Each of these commands is a chat, customized to your liking and connected to the tools of your choice.
-* Support for Model Context Protocol (MCP) tools.
+🔎 Read full docs at:
+📄 [oterm Documentation](https://ggozad.github.io/oterm/)
 
-### Screenshots
-![Splash](https://raw.githubusercontent.com/ggozad/oterm/refs/heads/main/docs/img/splash.gif)
-The splash screen animation that greets users when they start oterm.
+## 🆕 WHAT'S NEW
 
-![Chat](https://raw.githubusercontent.com/ggozad/oterm/main/docs/img/chat.png)
-A view of the chat interface, showcasing the conversation between the user and the model.
+🆕 Features added:
+  ✨ MCP Prompt Support
+  ✨ Create terminal commands as chat-based interfaces
+  ✨ Tool support through Model Context Protocol
 
-![Model selection](https://raw.githubusercontent.com/ggozad/oterm/main/docs/img/customizations.svg)
-The model selection screen, allowing users to choose and customize available models.
+## 🖼️ UI HIGHLIGHTS
 
-![Tool support](https://raw.githubusercontent.com/ggozad/oterm/main/docs/img/mcp.svg)
-oterm using the `git` MCP server to access its own repo.
+🖼️ Splash Screen:
+🌀 "Welcome animation when launching oterm"
 
-![Image selection](https://raw.githubusercontent.com/ggozad/oterm/main/docs/img/image_selection.png)
-The image selection interface, demonstrating how users can include images in their conversations.
+💬 Chat Interface:
+🗨️ "Interactive chat session view"
 
-![Theme](https://raw.githubusercontent.com/ggozad/oterm/main/docs/img/theme.svg)
-oterm supports multiple themes, allowing users to customize the appearance of the interface.
+🧠 Model Selection:
+🎛️ "Choose & customize AI models"
 
-## License
+🔧 Tool Integration:
+🪛 "Connect to tools like MCP Git Server"
 
-This project is licensed under the [MIT License](LICENSE).
+🖼️ Image Selection:
+🖼️ "Include visuals in conversations"
+
+🎨 Themes:
+🎨 "Switch between interface styles"
+
+## 🪪 LICENSE
+
+📜 Licensed under the [MIT License](LICENSE)
